@@ -1,0 +1,88 @@
+@media (min-width: 768px){
+
+    /* Caption */
+
+    .carousel-caption {
+        background-color: rgba(0,0,0,0.5);
+        bottom: 20px;
+        left: 20px;
+        right: auto;
+        top: auto;
+        padding: 20px;
+        position: absolute;
+        max-width: 300px;
+    }
+
+    .carousel-caption-custom-title{
+        font-size: 16px;
+        line-height: 22px;
+        text-align: left;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .carousel-caption-custom-description{
+        margin-top: 11px;    
+        font-size: 12px;
+        line-height: 19px;
+        text-align: left;
+        color: #ccc;
+    }
+
+    /* Indicators */
+
+    .carousel-indicators{
+        bottom: auto;
+        left: auto;
+        margin: 0;
+        right: 20px;
+        top: 20px;
+        width: auto;   
+    }
+
+    .carousel-indicators li{
+        border-radius: 0;
+    }
+
+}/* @media (min-width: 768px) */
+
+@media (max-width: 767px){
+    .carousel-caption, .carousel-indicators{
+        display: none;
+    }
+}
+
+/* Controls */
+
+.carousel-control.right{
+    background-color: rgba(0,0,0,0.5);
+    background-image: url('../img/control-right.png');
+    height: 40px;
+    width: 40px;
+    top: auto;
+    left: auto;
+    right: 20px;
+    bottom: 20px;
+}
+
+.carousel-control .icon-next{
+    display: none !important;
+}
+
+.carousel-control.left{
+    background-color: rgba(0,0,0,0.5);
+    background-image: url('../img/control-left.png');
+    height: 40px;
+    width: 40px;
+    top: auto;
+    left: auto;
+    right: 65px;
+    bottom: 20px;
+}
+
+.carousel-control .icon-prev{
+    display: none !important;
+}
+
+
+
